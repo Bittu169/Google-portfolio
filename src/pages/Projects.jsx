@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Projects.css";
-import { projectMeta } from "../data/project";
+import { projectMeta } from "../data/Project";
 
 const GITHUB_USERNAME = "Bittu169";
 
