@@ -1,0 +1,36 @@
+.notfound-container {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .notfound-img {
+    width: 220px;
+    margin-bottom: 24px;
+    opacity: 0.9;
+  }
+  
+  .notfound-text {
+    font-size: 18px;
+    color: #5f6368;
+  }
+  
+  .notfound-link {
+    color: #1a73e8;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .notfound-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  /* DARK MODE SUPPORT */
+  body.dark .notfound-text {
+    color: #9aa0a6;
+  }
+  
+  body.dark .notfound-link {
+    color: #8ab4f8;
+  }
+  

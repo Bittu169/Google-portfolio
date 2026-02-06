@@ -1,0 +1,140 @@
+/* ======================
+   PROJECTS PAGE (LIGHT)
+====================== */
+
+.projects-section {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(420px, 1fr)); /* 2 per row */
+    gap: 32px;
+    padding: 48px;
+    background: #f1f3f4;
+  }
+  
+  /* PROJECT CARD */
+  .project-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 2px 4px rgba(60,64,67,.25),
+                0 2px 6px rgba(60,64,67,.15);
+    transition: 0.25s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 14px rgba(60,64,67,.3);
+  }
+  
+  /* IMAGE */
+  .project-image img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* TITLE */
+  .project-card h3 {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #202124;
+  }
+  
+  /* DESCRIPTION */
+  .project-card p {
+    margin: 10px 0 18px;
+    font-size: 15px;
+    color: #5f6368;
+    line-height: 1.6;
+  }
+  
+  /* BUTTONS */
+  .project-buttons a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 10px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    border-radius: 20px;
+    background: #e8eaed;
+    color: #202124;
+    text-decoration: none;
+    transition: 0.2s ease;
+  }
+  
+  .project-buttons a:hover {
+    background: #dadce0;
+  }
+  
+  /* ======================
+     RESPONSIVE BREAKPOINTS
+  ====================== */
+  
+  /* Large tablets & below */
+  @media (max-width: 1100px) {
+    .projects-section {
+      grid-template-columns: 1fr; /* 1 per row */
+      padding: 32px;
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 600px) {
+    .projects-section {
+      padding: 20px;
+      gap: 22px;
+    }
+  
+    .project-card {
+      padding: 18px;
+    }
+  
+    .project-image img {
+      height: 190px;
+    }
+  
+    .project-card h3 {
+      font-size: 18px;
+    }
+  
+    .project-card p {
+      font-size: 14px;
+    }
+  
+    .project-buttons a {
+      padding: 7px 14px;
+      font-size: 13px;
+    }
+  }
+  
+  /* ======================
+     DARK MODE (NAVBAR)
+  ====================== */
+  
+  body.dark .projects-section {
+    background: #202124;
+  }
+  
+  body.dark .project-card {
+    background: #303134;
+    box-shadow: 0 2px 6px rgba(0,0,0,.6);
+  }
+  
+  body.dark .project-card h3 {
+    color: #e8eaed;
+  }
+  
+  body.dark .project-card p {
+    color: #bdc1c6;
+  }
+  
+  body.dark .project-buttons a {
+    background: #3c4043;
+    color: #e8eaed;
+  }
+  
+  body.dark .project-buttons a:hover {
+    background: #5f6368;
+  }
+  

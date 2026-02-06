@@ -1,0 +1,386 @@
+/* =========================
+   NAVBAR RESET
+========================= */
+.navbar {
+  font-family: arial, sans-serif;
+  background: #fff;
+  color: #1f1f1f;
+  padding: 12px 24px;
+  padding-bottom: 0;
+  border-bottom: 1px solid #dadce0;
+}
+
+/* =========================
+   TOP ROW
+========================= */
+.nav-top {
+  display: flex;
+  align-items: center;
+}
+/* =========================
+   FIX NAV-TOP ON TOP
+========================= */
+.nav-top {
+  position: fixed;   /* fixed to viewport */
+  top: 0;            /* stick to top */
+  left: 0;           /* align to left */
+  width: 100%;       /* full width */
+  z-index: 999;      /* stay above everything */
+  background: inherit; /* keep original background */
+  padding: 12px 24px; /* same as original */
+  box-sizing: border-box; /* ensure padding doesn't break width */
+}
+.navbar .nav-links {
+  margin-top: 64px; /* same height as nav-top (adjust if needed) */
+}
+
+
+
+
+/* =========================
+   LOGO
+========================= */
+.logo {
+  height: 30px;
+  transition: filter 0.2s ease;
+}
+
+body.dark .logo {
+  filter: brightness(0) invert(1);
+}
+
+/* =========================
+   SEARCH BAR
+========================= */
+.search-bar {
+  flex: 1;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  margin-left: 24px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  background: #fff;
+  transition: box-shadow 0.2s ease;
+  gap: 0;
+}
+
+.search-bar:hover,
+.search-bar:focus-within {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+  color: inherit;
+}
+
+/* =========================
+   ICON BUTTONS
+========================= */
+.icon-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  transition: background-color 0.15s ease;
+}
+
+.icon-btn:focus,
+.icon-btn:focus-visible,
+.icon-btn:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.icon-btn svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-btn:hover {
+  background-color: #f1f3f4;
+}
+
+/* =========================
+   SEARCH & CLEAR (TIGHT)
+========================= */
+.search-btn,
+.clear-btn {
+  padding: 4px;
+  margin-left: -2px;
+}
+
+.search-btn {
+  color: #1a73e8;
+}
+.clear-btn{
+  color: #5f6368;
+}
+.search-btn:hover,
+.clear-btn:hover {
+  background-color: #e8f0fe;
+  color: #0d76ff;
+  font-weight: bold;
+}
+
+/* =========================
+   RIGHT ICONS
+========================= */
+.nav-icons {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* =========================
+   THEME ICON COLORS
+========================= */
+.sun-btn svg {
+  color: #3c4043;
+}
+
+body.dark .sun-btn svg {
+  color: #e8eaed;
+}
+
+/* =========================
+   AVATAR
+========================= */
+.avatar-wrapper {
+  position: relative;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  background: #673ab7;
+  color: #fff;
+  border-radius: 50%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* ACCOUNT POPUP */
+.de {
+  position: absolute;
+  top: 42px;
+  right: 0;
+  width: 225px;
+  padding: 5px;
+  border-radius: 8px;
+  display: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: #303134;
+  border: 1px solid #5f6368;
+  color: #e8eaed;
+  z-index: 10;
+}
+
+.de #n1 {
+  color: #fff;
+  font-weight: 600;
+}
+.de #n2 {
+  color: #b6aeae;
+  font-weight: 600;
+  
+}
+
+.avatar-wrapper:hover .de {
+  display: block;
+}
+
+/* =========================
+   BOTTOM NAV LINKS
+========================= */
+.nav-links {
+  display: flex;
+  gap: 28px;
+  margin-top: 14px;
+  padding-left: 110px;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #5f6368;
+  text-decoration: none;
+  padding-bottom: 8px;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+/* 🔥 ENSURE ICONS FOLLOW TEXT */
+.nav-links a svg {
+  fill: currentColor;
+}
+
+/* hover → color only */
+.nav-links a:hover {
+  color: #1a73e8;
+}
+
+/* active underline only */
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #0852b4;
+  transition: width 0.25s ease;
+}
+
+.nav-links a.active {
+  color: #0852b4;
+  font-weight: 600;
+}
+
+.nav-links a.active::after {
+  width: 100%;
+}
+
+/* =========================
+   🌙 DARK MODE
+========================= */
+body.dark {
+  background: #202124;
+  color: #e8eaed;
+}
+
+body.dark .navbar {
+  background: #202124;
+  border-bottom: 1px solid #3c4043;
+}
+
+/* search */
+body.dark .search-bar {
+  background: #303134;
+  border-color: #5f6368;
+  box-shadow: 0.5px 3px 6px #4b4b4b;
+}
+
+body.dark .search-bar input {
+  color: #e8eaed;
+}
+
+/* icons */
+body.dark .icon-btn:hover {
+  background: #3c4043;
+}
+
+/* 🔥 FIX: NAV LINK TEXT + ICON VISIBILITY */
+body.dark .nav-links a {
+  color: #9aa0a6;
+}
+
+body.dark .nav-links a svg {
+  fill: currentColor; /* 🔥 critical */
+}
+
+body.dark .nav-links a:hover {
+  color: #8ab4f8;
+}
+
+body.dark .nav-links a.active {
+  color: #8ab4f8;
+}
+
+body.dark .nav-links a.active::after {
+  background: #8ab4f8;
+}
+
+@media (max-width: 1024px) {
+  .search-bar {
+    max-width: 480px;
+    margin-left: 16px;
+  }
+
+  .nav-links {
+    padding-left: 80px;
+    gap: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 16px;
+  }
+
+  /* TOP ROW STACK */
+  .nav-top {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  /* SEARCH FULL WIDTH */
+  .search-bar {
+    order: 3;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  /* RIGHT ICONS */
+  .nav-icons {
+    margin-left: auto;
+    gap: 10px;
+  }
+
+  /* BOTTOM LINKS → SCROLLABLE */
+  .nav-links {
+    padding-left: 0;
+    margin-top: 12px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .nav-links::-webkit-scrollbar {
+    display: none; /* Chrome */
+  }
+
+  .nav-links a {
+    padding: 8px 6px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    height: 26px;
+  }
+
+  .icon-btn svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .avatar {
+    width: 28px;
+    height: 28px;
+    font-size: 13px;
+  }
+}
+/* --------------------------
+    End of Navbar.css /*
