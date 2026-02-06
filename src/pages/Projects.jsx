@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Projects.css";
-import { projectMeta } from "../data/Project";
-
+import projectMeta from "../data/Project";
 
 const GITHUB_USERNAME = "Bittu169";
 
@@ -14,9 +13,9 @@ function Projects() {
       .then(data => setRepos(data));
   }, []);
 
-    useEffect(() => {
-      document.title = "Bittu's Projects";
-    }, []);  
+  useEffect(() => {
+    document.title = "Bittu's Projects";
+  }, []);
 
   return (
     <section className="projects-section">
