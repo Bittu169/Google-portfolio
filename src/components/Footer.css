@@ -1,5 +1,5 @@
-/* Layout Reset for the Footer */
-.google-footer {
+/* Using body prefix to ensure high specificity on live deployment */
+body .google-footer {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
@@ -10,77 +10,79 @@
   font-size: 14px;
   flex-wrap: wrap;
   gap: 12px;
+  /* Ensure it stays at the bottom of the page container */
+  margin-top: auto; 
 }
 
 /* --- LIGHT MODE (Explicit) --- */
-.google-footer.light {
+body .google-footer.light {
   background-color: #f9f9f9 !important;
   color: #202124 !important;
   border-top: 1px solid #dadce0 !important;
 }
 
-.google-footer.light .footer-right a {
+body .google-footer.light .footer-right a {
   color: #202124 !important;
 }
 
 /* --- DARK MODE (Explicit) --- */
-.google-footer.dark {
+body .google-footer.dark {
   background-color: #202124 !important;
   color: #e8eaed !important;
   border-top: 1px solid #3c4043 !important;
 }
 
-.google-footer.dark .footer-right a {
+body .google-footer.dark .footer-right a {
   color: #e8eaed !important;
 }
 
 /* --- INNER ELEMENTS --- */
-.footer-left,
-.footer-center,
-.footer-right {
-  display: flex;
-  align-items: center;
+body .footer-left,
+body .footer-center,
+body .footer-right {
+  display: flex !important;
+  align-items: center !important;
 }
 
-.footer-center {
-  flex: 1;
-  justify-content: center;
+body .footer-center {
+  flex: 1 !important;
+  justify-content: center !important;
 }
 
-.footer-right a {
-  margin-left: 12px;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
+body .footer-right a {
+  margin-left: 12px !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
   transition: opacity 0.2s ease;
 }
 
-.footer-right a:hover {
-  opacity: 0.7;
+body .footer-right a:hover {
+  opacity: 0.7 !important;
 }
 
 /* SVG Fill - Crucial for dark mode icons */
-.footer-right svg {
+body .footer-right svg {
   fill: currentColor !important;
 }
 
 /* --- MOBILE RESPONSIVE --- */
 @media (max-width: 600px) {
-  .google-footer {
+  body .google-footer {
     flex-direction: column !important;
     align-items: center !important;
-    text-align: center;
+    text-align: center !important;
     padding: 20px !important;
   }
 
-  .footer-center {
+  body .footer-center {
     justify-content: center !important;
-    margin: 8px 0;
+    margin: 8px 0 !important;
   }
 
-  .footer-right {
+  body .footer-right {
     justify-content: center !important;
     margin-left: 0 !important;
-    margin-top: 8px;
+    margin-top: 8px !important;
   }
 }
