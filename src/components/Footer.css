@@ -1,17 +1,40 @@
+/* Layout Reset for the Footer */
 .google-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 32px;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 16px 32px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
   font-family: Arial, sans-serif;
   font-size: 14px;
-  border-top: 1px solid #dadce0;
-  background-color: #f9f9f9;
-  color: #202124;
   flex-wrap: wrap;
   gap: 12px;
 }
 
+/* --- LIGHT MODE (Explicit) --- */
+.google-footer.light {
+  background-color: #f9f9f9 !important;
+  color: #202124 !important;
+  border-top: 1px solid #dadce0 !important;
+}
+
+.google-footer.light .footer-right a {
+  color: #202124 !important;
+}
+
+/* --- DARK MODE (Explicit) --- */
+.google-footer.dark {
+  background-color: #202124 !important;
+  color: #e8eaed !important;
+  border-top: 1px solid #3c4043 !important;
+}
+
+.google-footer.dark .footer-right a {
+  color: #e8eaed !important;
+}
+
+/* --- INNER ELEMENTS --- */
 .footer-left,
 .footer-center,
 .footer-right {
@@ -26,39 +49,38 @@
 
 .footer-right a {
   margin-left: 12px;
-  color: black; /* icons black */
   text-decoration: none;
   display: inline-flex;
   align-items: center;
+  transition: opacity 0.2s ease;
 }
 
 .footer-right a:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
-/* Dark mode */
-.google-footer.dark {
-  background-color: #202124;
-  color: #e8eaed;
+/* SVG Fill - Crucial for dark mode icons */
+.footer-right svg {
+  fill: currentColor !important;
 }
 
-.google-footer.dark .footer-right a {
-  color: #e8eaed;
-}
-
-/* Responsive for mobile */
-@media (max-width: 480px) {
+/* --- MOBILE RESPONSIVE --- */
+@media (max-width: 600px) {
   .google-footer {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
+    padding: 20px !important;
   }
 
   .footer-center {
-    justify-content: flex-start;
-    margin: 4px 0;
+    justify-content: center !important;
+    margin: 8px 0;
   }
 
-  .footer-right a {
-    margin: 4px 8px 0 0;
+  .footer-right {
+    justify-content: center !important;
+    margin-left: 0 !important;
+    margin-top: 8px;
   }
 }

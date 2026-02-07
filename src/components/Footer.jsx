@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 function Footer() {
   const [isDark, setIsDark] = useState(false);
 
-  // Detect dark mode dynamically based on body class
   useEffect(() => {
     const checkTheme = () => setIsDark(document.body.classList.contains("dark"));
     checkTheme(); // initial check
@@ -14,6 +13,7 @@ function Footer() {
     return () => observer.disconnect();
   }, []);
 
+  // We add 'light' or 'dark' class explicitly to help the CSS selector
   return (
     <footer className={`google-footer ${isDark ? "dark" : "light"}`}>
       <div className="footer-left">
