@@ -1,36 +1,51 @@
 .notfound-container {
-    padding: 80px 20px;
-    text-align: center;
-  }
-  
-  .notfound-img {
-    width: 220px;
-    margin-bottom: 24px;
-    opacity: 0.9;
-  }
-  
-  .notfound-text {
-    font-size: 18px;
-    color: #5f6368;
-  }
-  
-  .notfound-link {
-    color: #1a73e8;
-    font-weight: 500;
-    text-decoration: none;
-  }
-  
-  .notfound-link:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  
-  /* DARK MODE SUPPORT */
-  body.dark .notfound-text {
-    color: #9aa0a6;
-  }
-  
-  body.dark .notfound-link {
-    color: #8ab4f8;
-  }
-  
+  padding: 80px 20px !important;
+  text-align: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  min-height: 60vh !important;
+}
+
+.notfound-img {
+  width: 220px !important;
+  height: auto !important;
+  margin-bottom: 24px !important;
+  opacity: 0.9 !important;
+}
+
+.notfound-text {
+  font-size: 18px !important;
+  color: #5f6368 !important; /* Default Light */
+  line-height: 1.5;
+}
+
+.notfound-link {
+  color: #1a73e8 !important; /* Default Light */
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+.notfound-link:hover {
+  text-decoration: underline !important;
+}
+
+/* --- DARK MODE SUPPORT --- */
+/* We target the container directly when it has the .dark class */
+.notfound-container.dark .notfound-text {
+  color: #9aa0a6 !important;
+}
+
+.notfound-container.dark .notfound-link {
+  color: #8ab4f8 !important;
+}
+
+/* Fallback for global body class */
+body.dark .notfound-text {
+  color: #9aa0a6 !important;
+}
+
+body.dark .notfound-link {
+  color: #8ab4f8 !important;
+}
