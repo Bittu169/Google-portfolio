@@ -1,5 +1,5 @@
-/* Using body prefix to ensure high specificity on live deployment */
-body .google-footer {
+/* Layout Reset */
+.bm-google-footer {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
@@ -10,79 +10,69 @@ body .google-footer {
   font-size: 14px;
   flex-wrap: wrap;
   gap: 12px;
-  /* Ensure it stays at the bottom of the page container */
-  margin-top: auto; 
+  position: relative;
+  z-index: 100;
 }
 
-/* --- LIGHT MODE (Explicit) --- */
-body .google-footer.light {
+/* Light Mode - Your specific colors */
+.bm-google-footer.bm-light {
   background-color: #f9f9f9 !important;
   color: #202124 !important;
   border-top: 1px solid #dadce0 !important;
 }
 
-body .google-footer.light .footer-right a {
+.bm-google-footer.bm-light .bm-footer-right a {
   color: #202124 !important;
 }
 
-/* --- DARK MODE (Explicit) --- */
-body .google-footer.dark {
+/* Dark Mode - Your specific colors */
+.bm-google-footer.bm-dark {
   background-color: #202124 !important;
   color: #e8eaed !important;
   border-top: 1px solid #3c4043 !important;
 }
 
-body .google-footer.dark .footer-right a {
+.bm-google-footer.bm-dark .bm-footer-right a {
   color: #e8eaed !important;
 }
 
-/* --- INNER ELEMENTS --- */
-body .footer-left,
-body .footer-center,
-body .footer-right {
-  display: flex !important;
-  align-items: center !important;
+/* Inner Alignment */
+.bm-footer-left,
+.bm-footer-center,
+.bm-footer-right {
+  display: flex;
+  align-items: center;
 }
 
-body .footer-center {
-  flex: 1 !important;
-  justify-content: center !important;
+.bm-footer-center {
+  flex: 1;
+  justify-content: center;
 }
 
-body .footer-right a {
-  margin-left: 12px !important;
-  text-decoration: none !important;
-  display: inline-flex !important;
-  align-items: center !important;
+.bm-footer-right a {
+  margin-left: 12px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
   transition: opacity 0.2s ease;
 }
 
-body .footer-right a:hover {
-  opacity: 0.7 !important;
+.bm-footer-right a:hover {
+  opacity: 0.7;
 }
 
-/* SVG Fill - Crucial for dark mode icons */
-body .footer-right svg {
+.bm-footer-right svg {
   fill: currentColor !important;
 }
 
-/* --- MOBILE RESPONSIVE --- */
+/* Responsive */
 @media (max-width: 600px) {
-  body .google-footer {
+  .bm-google-footer {
     flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
     padding: 20px !important;
+    text-align: center;
   }
-
-  body .footer-center {
-    justify-content: center !important;
-    margin: 8px 0 !important;
-  }
-
-  body .footer-right {
-    justify-content: center !important;
-    margin-left: 0 !important;
-    margin-top: 8px !important;
+  .bm-footer-center {
+    margin: 8px 0;
   }
 }
