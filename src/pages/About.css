@@ -216,15 +216,15 @@ details p {
   text-decoration: underline;
 }
 
-/* MINIFIER-SAFE FIX */
-#ph:hover {
-  text-decoration: none;
-}
-
-#ph {
+.profile-links #ph {
   color: #5f6368;
 }
 
+.profile-links a > #ph {
+  text-decoration: none;
+}
+
+/* Ensure SVG & IMG icons render properly */
 .profile-links svg,
 .profile-links img {
   width: 24px;
