@@ -20,7 +20,12 @@ function Projects() {
   return (
     <section className="projects-section">
       {repos.map((repo) => {
-        const meta = projectMeta[repo.name] || {};
+        // const meta = projectMeta[repo.name] || {};
+        const meta =
+          Object.values(projectMeta).find(
+            (project) => project.repo === repo.name
+          ) || {};
+
 
         return (
           <div className="project-card" key={repo.id}>

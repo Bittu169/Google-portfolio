@@ -2,14 +2,16 @@ import bittuRepoImg from "../assets/bittu169-project.png";
 
 const projectMeta = {
   Video_streaming: {
+    repo: "Video_streaming",
     title: "Video Streaming Platform",
     image: "https://pixflow.net/wp-content/uploads/2023/10/Header.jpg",
     description:
       "A video streaming web application that allows users to browse, play, and manage video content with a clean UI. Built to demonstrate frontend routing, media handling, and responsive design.",
-    videoDemo: "https://www.youtube.com/",
+    videoDemo: "https://github.com/Bittu169/Video_streaming",
   },
 
   Portfolio: {
+    repo: "Portfolio",
     title: "Developer Portfolio",
     image:
       "https://static-blog.onlyoffice.com/wp-content/uploads/2025/09/30124756/portfolio.png",
@@ -18,6 +20,7 @@ const projectMeta = {
   },
 
   resturant: {
+    repo: "resturant",
     title: "Restaurant Website",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKiHQs6SECMO9PKxCnQd7xNZviQuPsp17Vog&s",
@@ -26,6 +29,7 @@ const projectMeta = {
   },
 
   healthcare: {
+    repo: "healthcare",
     title: "Healthcare Web App",
     image:
       "https://d2ms8rpfqc4h24.cloudfront.net/Healthcare_Web_App_Development_Guide_5cadb09a1e.jpg",
@@ -34,6 +38,7 @@ const projectMeta = {
   },
 
   AI_Powered_Job_Scrapper: {
+    repo: "AI_Powered_Job_Scrapper",
     title: "AI Powered Job Scraper",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5tDz8PKDFTJkKzwLMxP9F63KIMwDxeX-RHg&s",
@@ -44,6 +49,7 @@ const projectMeta = {
   },
 
   video_recommendation: {
+    repo: "video_recommendation",
     title: "Video Recommendation System",
     image:
       "https://editor.analyticsvidhya.com/uploads/76889recommender-system-for-movie-recommendation.jpg",
@@ -52,10 +58,31 @@ const projectMeta = {
   },
 
   Bittu169: {
+    repo: "Bittu169",
     title: "Project Showcase Repository",
     image: bittuRepoImg,
     description:
       "A curated showcase repository containing selected projects, experiments, and implementations across web development and automation.",
+  },
+
+  Google_Portfolio: {
+    repo: "Google-portfolio",
+    title: "Google-Style Portfolio Website",
+    image:"https://github.com/Bittu169/Google-portfolio/blob/main/Screenshot%202026-02-16%20185016.png?raw=true",
+    description:
+      "A modern, responsive portfolio website built with React and Vite that mimics the clean UI of Google Search. It features dynamic dark/light theme support, a custom navigation bar, and a fully responsive layout suited for showcasing your skills, projects, and contact info.",
+    liveDemo: "https://google-portfolio-phi.vercel.app/",
+  },
+
+  Car_Price_Predictor: {
+    repo: "car-price-predictor",
+    title: "Car Price Predictor Web App",
+    image:
+      "https://github.com/Bittu169/car-price-predictor/raw/main/Screenshot%202026-02-15%20200637.png",
+    description:
+      "A machine learning powered web application that predicts the resale price of used cars based on features like brand, model, year, kilometers driven, and fuel type. Built using a trained Linear Regression model and served via a Flask backend.",
+    // liveDemo: "https://car-price-predictor-7yra.onrender.com",
+    videoDemo: "https://www.linkedin.com/posts/bittu-mondal-a06258313_machinelearning-python-flask-activity-7428817091383947264-Qc5O?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-X2KYBlH4SfSH3rfO29nh2FqVL-Mndo0c",
   },
 };
 
