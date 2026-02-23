@@ -26,6 +26,11 @@ const skills = [
     color: "#3776AB"
   },
   {
+    name: "C",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+    color: "#A8B9CC"
+  },
+  {
     name: "SQL",
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
     color: "#00758F"
