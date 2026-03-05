@@ -9,6 +9,13 @@ const projectMeta = {
       "A video streaming web application that allows users to browse, play, and manage video content with a clean UI. Built to demonstrate frontend routing, media handling, and responsive design.",
     videoDemo: "https://github.com/Bittu169/Video_streaming",
   },
+  WeatherApp: {
+    repo: "WeatherApp",
+    title: "Weather Forecast Web Application",
+    image: "https://github.com/Bittu169/WeatherApp/blob/ba59de0db2af55e0a82cc1f6cc67ee15b283d380/Screenshot%202026-03-05%20121811.png?raw=true",
+    description: "A Django-based weather web application that provides real-time weather updates, 5-day forecasts, dynamic backgrounds based on weather conditions, and auto-location detection.",
+    videoDemo: "https://www.linkedin.com/posts/bittu-mondal-a06258313_python-django-webdevelopment-activity-7435215828070912000-tq2H?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-X2KYBlH4SfSH3rfO29nh2FqVL-Mndo0c"
+  },
 
   Portfolio: {
     repo: "Portfolio",
