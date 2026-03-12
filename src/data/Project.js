@@ -9,10 +9,18 @@ const projectMeta = {
       "A video streaming web application that allows users to browse, play, and manage video content with a clean UI. Built to demonstrate frontend routing, media handling, and responsive design.",
     videoDemo: "https://github.com/Bittu169/Video_streaming",
   },
+  whatsappAutomation: {
+    repo: "WhatsApp_Chat_Automation",
+    title: "WhatsApp Message Scheduler",
+    image: "https://raw.githubusercontent.com/Bittu169/WhatsApp_Chat_Automation/363dc93e25238a543ddae8ab2e3a4cebe5445468/Screenshot%202026-03-12%20174455.png",
+    description:
+      "A Python-based desktop application that allows users to schedule WhatsApp messages to be sent automatically at a specified date and time. The application uses the Twilio API for WhatsApp messaging and features a modern GUI built with CustomTkinter, enabling users to easily enter recipient details, message content, and scheduling information through an intuitive interface.",
+    videoDemo:"https://www.linkedin.com/posts/bittu-mondal-a06258313_python-softwaredevelopment-automation-activity-7437844341743644672-bF0f?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-X2KYBlH4SfSH3rfO29nh2FqVL-Mndo0c",
+    },
   WeatherApp: {
     repo: "WeatherApp",
     title: "Weather Forecast Web Application",
-    image: "https://github.com/Bittu169/WeatherApp/blob/ba59de0db2af55e0a82cc1f6cc67ee15b283d380/Screenshot%202026-03-05%20121811.png?raw=true",
+    image: "https://raw.githubusercontent.com/Bittu169/WeatherApp/ba59de0db2af55e0a82cc1f6cc67ee15b283d380/Screenshot%202026-03-05%20121811.png",
     description: "A Django-based weather web application that provides real-time weather updates, 5-day forecasts, dynamic backgrounds based on weather conditions, and auto-location detection.",
     videoDemo: "https://www.linkedin.com/posts/bittu-mondal-a06258313_python-django-webdevelopment-activity-7435215828070912000-tq2H?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-X2KYBlH4SfSH3rfO29nh2FqVL-Mndo0c"
   },
@@ -75,7 +83,7 @@ const projectMeta = {
   Google_Portfolio: {
     repo: "Google-portfolio",
     title: "Google-Style Portfolio Website",
-    image:"https://github.com/Bittu169/Google-portfolio/blob/main/Screenshot%202026-02-16%20185016.png?raw=true",
+    image:"https://raw.githubusercontent.com/Bittu169/Google-portfolio/main/Screenshot%202026-02-16%20185016.png",
     description:
       "A modern, responsive portfolio website built with React and Vite that mimics the clean UI of Google Search. It features dynamic dark/light theme support, a custom navigation bar, and a fully responsive layout suited for showcasing your skills, projects, and contact info.",
     liveDemo: "https://google-portfolio-phi.vercel.app/",
