@@ -17,7 +17,7 @@ const videos = [
     date: "02-Feb-2025",
     thumbnail:
       "https://ahoitech.in/wp-content/uploads/2024/12/Restaurant-Management-System.png",
-    link: "https://www.linkedin.com"
+    link: "https://github.com/Bittu169/resturant"
   },
   {
     title: "Video Streaming Web Application",
@@ -25,7 +25,7 @@ const videos = [
     date: "26-Mar-2022",
     thumbnail:
       "https://s3b.cashify.in/gpro/uploads/2020/03/04103226/Top-5-Video-Streaming-Apps-for-Android-and-iOS.png",
-    link: "https://www.linkedin.com"
+    link: "https://github.com/Bittu169/Video_streaming"
   }
 ];
 

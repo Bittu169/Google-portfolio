@@ -32,7 +32,7 @@ const projectMeta = {
       "https://static-blog.onlyoffice.com/wp-content/uploads/2025/09/30124756/portfolio.png",
     description:
       "A personal developer portfolio showcasing projects, skills, and contact details with a Google-style UI, dark mode support, and responsive layout built using React.",
-  },
+  },  
 
   resturant: {
     repo: "resturant",
