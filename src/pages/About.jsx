@@ -78,7 +78,7 @@ function About() {
             </div>
 
             <p>
-              Solved <strong>170+ problems on LeetCode</strong> and{" "}
+              Solved <strong>250+ problems on LeetCode</strong> and{" "}
               <strong>50+ problems on HackerRank</strong>, strengthening skills
               in data structures, algorithms, and optimized problem-solving
               techniques.
