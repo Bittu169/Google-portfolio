@@ -32,7 +32,16 @@ const projectMeta = {
       "https://static-blog.onlyoffice.com/wp-content/uploads/2025/09/30124756/portfolio.png",
     description:
       "A personal developer portfolio showcasing projects, skills, and contact details with a Google-style UI, dark mode support, and responsive layout built using React.",
-  },  
+  }, 
+  ticTacToeAI: {
+    repo: "Tic-Tac-Toe_Game",
+    title: "AI Tic-Tac-Toe Game",
+    image: "https://raw.githubusercontent.com/Bittu169/Tic-Tac-Toe_Game/main/Screenshot%202026-04-06%20175217.png",
+    description:
+      "A modern Tic-Tac-Toe web application featuring an unbeatable AI opponent powered by the Minimax algorithm. The project includes a responsive UI, interactive gameplay, real-time turn indicator, winner popup, scoreboard tracking, and sound effects. It demonstrates strong skills in JavaScript logic, DOM manipulation, and asynchronous game state management.",
+    liveDemo: "https://bittu169.github.io/Tic-Tac-Toe_Game/",
+    
+  }, 
 
   resturant: {
     repo: "resturant",
