@@ -42,7 +42,14 @@ const projectMeta = {
     liveDemo: "https://bittu169.github.io/Tic-Tac-Toe_Game/",
     
   }, 
-
+  jarvisAI: {
+    repo: "personal-ai-assistant",
+    title: "JARVIS AI Personal Assistant",
+    image: "https://media.licdn.com/dms/image/v2/D4E12AQFnen7je-jrew/article-cover_image-shrink_720_1280/B4EZfkuS8MG4AU-/0/1751889031249?e=2147483647&v=beta&t=XO4fqNh4WyGu0jr1cLyVNrPrBFjqRBWFoUnQWr128sM", // Replace with your actual repo image path once uploaded
+    description:
+      "An advanced personal desktop assistant featuring a sci-fi inspired GUI built with PyQt5. It integrates speech processing (STT/TTS), an intelligent chatbot core, real-time web search engines, AI image generation, and system automation workflows to handle daily tasks smoothly via voice or text input.",
+    videoDemo: "https://youtu.be/CqSsGvg0Mls?si=OHnyyaPoMJZQnZfD", // Replace with your LinkedIn or video demo link if available
+  },
   resturant: {
     repo: "resturant",
     title: "Restaurant Website",
