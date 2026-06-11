@@ -91,7 +91,7 @@ const skills = [
     color: "#7952B3"
   },
   {
-    name: "React Native",
+    name: "React.js",
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     color: "#61DAFB"
   },
