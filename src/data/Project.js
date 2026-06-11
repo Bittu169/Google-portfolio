@@ -42,6 +42,16 @@ const projectMeta = {
     liveDemo: "https://bittu169.github.io/Tic-Tac-Toe_Game/",
     
   }, 
+  AI_Image_Generator_MERN: {
+    repo: "AI_Image_Generator_MERN",
+    title: "AI Image Generator (MERN + GenAI)",
+    image:
+      "https://raw.githubusercontent.com/Bittu169/AI_Image_Generator_MERN/d0708df7a1174810498b779ab1bb7fd1a109a4f0/Screenshot%202026-06-11%20180546.png",
+    description:
+      "A full-stack AI Image Generator web application built using MERN stack with Generative AI integration. Users can generate images from text prompts, store them in cloud storage using Cloudinary, and download generated outputs. The project demonstrates real-world implementation of AI APIs, RESTful backend architecture, and modern React UI with Vite.",
+    liveDemo: "https://ai-image-generator-react.netlify.app/",
+    videoDemo: "https://www.linkedin.com/posts/bittu-mondal-a06258313_mernstack-ai-generativeai-activity-7470819327475187712-jude?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-X2KYBlH4SfSH3rfO29nh2FqVL-Mndo0c"
+  },
   jarvisAI: {
     repo: "personal-ai-assistant",
     title: "JARVIS AI Personal Assistant",
