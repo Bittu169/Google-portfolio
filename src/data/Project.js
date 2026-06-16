@@ -52,6 +52,18 @@ const projectMeta = {
     liveDemo: "https://ai-image-generator-react.netlify.app/",
     videoDemo: "https://www.linkedin.com/posts/bittu-mondal-a06258313_mernstack-ai-generativeai-activity-7470819327475187712-jude?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-X2KYBlH4SfSH3rfO29nh2FqVL-Mndo0c"
   },
+  QuickGPT: {
+    repo: "QuickGPT",
+    title: "QuickGPT - AI SaaS Platform",
+    image:
+      "https://raw.githubusercontent.com/Bittu169/QuickGPT/a5f0890ed46227a2dd73cb519838e48d98a5269b/Screenshot%202026-06-16%20190006.png",
+      description:
+      "QuickGPT is a production-ready AI SaaS platform built using React, Node.js, Express, MongoDB, OpenAI API, ImageKit, and Stripe. Users can generate AI-powered text responses, create AI images from prompts, manage conversation history, purchase credits securely through Stripe Checkout, and access features through a modern responsive dashboard. The project demonstrates full-stack development, REST API design, JWT authentication, payment gateway integration, cloud deployment on Vercel, and scalable SaaS architecture.",
+
+      liveDemo: "https://quick-gpt-beryl-zeta.vercel.app/",
+    videoDemo:
+      "https://www.linkedin.com/posts/bittu-mondal-a06258313_opentowork-softwaredeveloper-fullstackdeveloper-activity-7472645208661188608-pZoL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-X2KYBlH4SfSH3rfO29nh2FqVL-Mndo0c", // Replace with your project demo video link
+  },
   jarvisAI: {
     repo: "personal-ai-assistant",
     title: "JARVIS AI Personal Assistant",
