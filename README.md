@@ -84,4 +84,13 @@ Bittu Mondal**
 4.  Paste the code above.
 5.  Click **Commit changes**.
 
+## 📄 Copyright
 
+© 2026 Bittu Mondal. All rights reserved.
+
+This project is open-source for learning and portfolio purposes only.  
+You are free to view and fork this repository, but **you are not allowed to reuse, modify, or redistribute** it for commercial purposes without explicit permission from the author.
+
+If you use any part of this project, please provide proper credit by linking back to the original repository:
+
+🔗 https://github.com/Bittu169/Google-portfolio
