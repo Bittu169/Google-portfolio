@@ -71,6 +71,11 @@ const skills = [
     color: "#11557C"
   },
   {
+    name: "Tailwind CSS",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    color: "#38B2AC"
+  },
+  {
     name: "PHP",
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
     color: "#777BB4"

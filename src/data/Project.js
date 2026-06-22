@@ -100,6 +100,21 @@ const projectMeta = {
     videoDemo:
       "https://www.linkedin.com/posts/bittu-mondal-a06258313_python-webscraping-machinelearning-activity-7423617174268973056-Z3qm",
   },
+  jobPortal: {
+    repo: "job-portal",
+    title: "Job Portal - Full Stack Job Searching Platform",
+  
+    image:
+      "https://raw.githubusercontent.com/Bittu169/job-portal/02d5abe47b0f224c62f0eac504f4f74340a79738/Screenshot%202026-06-22%20125050.png",
+  
+    description:
+      "A full-stack Job Portal web application built using React (Vite), Tailwind CSS, Django REST Framework, and PostgreSQL. The platform enables users to register, log in, browse job listings, apply for jobs, and track their applications in real time. The backend is powered by Django REST APIs and deployed on Render with secure environment variable configuration. This project demonstrates full-stack development, REST API integration, authentication flow, database management, and cloud deployment skills.",
+  
+    liveDemo: "https://job-portal-olive-seven.vercel.app",
+  
+    videoDemo:
+      "https://www.linkedin.com/posts/bittu-mondal-a06258313_fullstackdevelopment-reactjs-django-activity-7474723675653582848-uFIG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-X2KYBlH4SfSH3rfO29nh2FqVL-Mndo0c",
+  },
 
   video_recommendation: {
     repo: "video_recommendation",
