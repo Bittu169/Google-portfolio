@@ -80,6 +80,15 @@ const projectMeta = {
     description:
       "A responsive restaurant website featuring a modern landing page layout, menu sections, and clean UI components built using HTML, CSS, and JavaScript.",
   },
+  Last_Minute_Life_Saver: {
+    repo: "Last-Minute-Life-Saver",
+    title: "Last Minute Life Saver (LMLS) - AI Triage & Autopilot Scheduler",
+    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=1000",
+    description:
+      "An intelligent, full-stack productivity ecosystem built using React (Vite), Tailwind CSS, Express, and the Gemini 3.5 Flash API. Developed via 'vibe coding' for the Google Vibe2Ship Hackathon and fully deployed on Google Cloud Platform (GCP), LMLS acts as an automated triage center. It calculates a numeric priority index for tasks, generates Eisenhower matrices, slices monolithic tasks into micro-milestones, builds optimized daily chronological calendars via an autopilot scheduler, and features hands-free natural language voice assistant control. It is fortified with an advanced local heuristic fallback engine to guarantee offline resilience under API stress.",
+    liveDemo: "https://last-minute-life-saver-878066075893.asia-southeast1.run.app/",
+    googleDoc: "https://docs.google.com/document/d/1eKpI8Jl13FALsNwM4FgUqH7slhPrpyRvdbKnx5uXTM4/edit?usp=sharing",
+  },
 
   healthcare: {
     repo: "healthcare",
