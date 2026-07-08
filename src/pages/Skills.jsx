@@ -3,20 +3,39 @@ import { useEffect } from "react";
 
 
 const frontendSkills = [
-  "HTML 5",
-  "CSS 3",
+  "HTML5",
+  "CSS3",
   "JavaScript",
+  "React.js",
+  "React Native",
+  "Tailwind CSS",
   "Bootstrap 5",
-  "React Native"
+  "Vite"
 ];
 
 const backendSkills = [
   "Python",
+  "FastAPI",
   "Django",
+  "Node.js",
+  "Express.js",
   "PHP",
   "Laravel",
-  "Node.js",
+  "REST APIs"
+];
+
+const databaseSkills = [
+  "PostgreSQL",
+  "MongoDB",
   "SQL"
+];
+
+const toolsSkills = [
+  "Git",
+  "GitHub",
+  "Docker",
+  "Machine Learning",
+  "Artificial Intelligence"
 ];
 
 const skills = [
@@ -91,6 +110,11 @@ const skills = [
     color: "#F05032"
   },
   {
+    name: "GitHub",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    color: "#181717"
+  },
+  {
     name: "Bootstrap 5",
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
     color: "#7952B3"
@@ -99,6 +123,11 @@ const skills = [
     name: "React.js",
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     color: "#61DAFB"
+  },
+  {
+    name: "FastAPI",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+    color: "#009688"
   },
   {
     name: "Node.js",
@@ -145,6 +174,16 @@ function Skills() {
         <div className="summary-card backend">
           <h3>Backend Skills</h3>
           <p>{backendSkills.join(", ")}</p>
+        </div>
+
+        <div className="summary-card database">
+          <h3>Database Skills</h3>
+          <p>{databaseSkills.join(", ")}</p>
+        </div>
+
+        <div className="summary-card tools">
+          <h3>Tools & AI</h3>
+          <p>{toolsSkills.join(", ")}</p>
         </div>
       </div>
 

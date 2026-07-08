@@ -113,6 +113,10 @@
   margin-bottom: 10px;
 }
 
+.experience a{
+  color: #1a0dab;
+}
+
 /* PEOPLE ALSO ASK */
 details {
   border: 1px solid #dadce0;
@@ -262,6 +266,10 @@ body.dark .about-title,
 body.dark .experience-header span,
 body.dark .experience-company {
   color: #9aa0a6;
+}
+
+body.dark .experience a{
+  color: #8ab4f8;
 }
 
 body.dark details,

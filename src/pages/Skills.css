@@ -51,6 +51,19 @@
   .summary-card.backend {
     border-left: 5px solid #0f9d58;
   }
+
+  /* DATABASE CARD */
+.summary-card.database {
+  border-left: 4px solid #4169E1;
+}
+
+
+/* TOOLS & AI CARD */
+.summary-card.tools {
+  border-left: 4px solid #FF9800;
+}
+
+
   
   /* =========================
      TECHNOLOGY GRID

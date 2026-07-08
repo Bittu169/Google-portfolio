@@ -13,7 +13,7 @@ function About() {
     document.title = "Bittu's Portfolio";
   }, []);
 
-  
+
   return (
     <div className="about-page">
       {/* LEFT CONTENT */}
@@ -35,36 +35,72 @@ function About() {
 
           <div className="experience">
             <div className="experience-header">
-              <strong>Full Stack Developer (Academic Projects)</strong>
-              <span>2023 – Present</span>
+              <strong>Full Stack & AI Developer (Academic Projects)</strong>
+              <span>2025 – Present</span>
             </div>
-            <div className="experience-company">
-              Self-driven · College Projects
+
+            <div className="experience-company">  
+              Self-driven · Personal & College Projects
             </div>
 
             <p>
-              <strong>Video Streaming Platform:</strong> Developed a scalable
-              movie streaming platform with secure authentication, role-based
-              access (admin/user), and subscription-based premium content.
+              <strong>Deadline Guardian AI:</strong> Developed an AI-powered productivity
+              platform featuring secure JWT authentication, personalized AI coaching,
+              task management, analytics dashboard, and calendar export. Integrated
+              Google Gemini API to deliver intelligent recommendations and daily
+              productivity briefings.
               <br />
-              <strong>Tech:</strong> Laravel, MySQL, JavaScript, HTML, CSS
+              <strong>Live:</strong>{" "}
+              <a
+                href="https://last-minute-life-saver-878066075893.asia-southeast1.run.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                last-minute-life-saver-878066075893.asia-southeast1.run.app
+              </a>
+              <br />
+              <strong>Tech:</strong> React 19, FastAPI, PostgreSQL, SQLAlchemy,
+              Tailwind CSS, Google Gemini API
             </p>
 
             <p>
-              <strong>Hospital Patient Management System:</strong> Built backend
-              services to manage patient records, appointments, and prescriptions.
-              Implemented REST APIs and automated PDF generation for prescriptions.
+              <strong>Job Portal Web Application:</strong> Built a full-stack job portal
+              enabling job seekers to browse and apply for jobs while recruiters manage
+              postings and applicants through dedicated dashboards. Developed secure REST
+              APIs with Django REST Framework and deployed the application using
+              PostgreSQL on cloud infrastructure.
               <br />
-              <strong>Tech:</strong> PHP, MySQL, JavaScript
+              <strong>Live:</strong>{" "}
+              <a
+                href="https://job-portal-olive-seven.vercel.app/login"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                job-portal-olive-seven.vercel.app
+              </a>
+              <br />
+              <strong>Tech:</strong> React 19, Vite, Tailwind CSS, Django REST Framework,
+              PostgreSQL
             </p>
 
             <p>
-              <strong>Video Recommendation System:</strong> Created a machine
-              learning–based recommendation engine using the KNN algorithm and
-              designed an interactive UI for real-time recommendations.
+              <strong>QuickGPT:</strong> Engineered an AI-powered chatbot and image
+              generation platform supporting multi-session chat history, JWT
+              authentication, Stripe-based credit subscriptions, and AI image generation.
+              Built a responsive frontend with secure REST APIs and integrated ImageKit
+              for optimized image delivery.
               <br />
-              <strong>Tech:</strong> Python, Streamlit, Scikit-learn, Pandas,
-              NumPy
+              <strong>Live:</strong>{" "}
+              <a
+                href="https://quick-gpt-beryl-zeta.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://quick-gpt-beryl-zeta.vercel.app
+              </a>
+              <br/>
+              <strong>Tech:</strong> React 19, Node.js, Express.js, MongoDB, OpenAI API,
+              Stripe, ImageKit
             </p>
           </div>
 
@@ -79,7 +115,7 @@ function About() {
 
             <p>
               Solved <strong>250+ problems on LeetCode</strong> and{" "}
-              <strong>50+ problems on HackerRank</strong>, strengthening skills
+              <strong>70+ problems on HackerRank</strong>, strengthening skills
               in data structures, algorithms, and optimized problem-solving
               techniques.
             </p>
@@ -138,10 +174,10 @@ function About() {
             </p>
           </details>
         </section>
-       
-        <ProjectVideo/> 
-        
-        
+
+        <ProjectVideo />
+
+
       </div>
 
 
