@@ -96,7 +96,7 @@ function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://quick-gpt-beryl-zeta.vercel.app
+                quick-gpt-beryl-zeta.vercel.app
               </a>
               <br/>
               <strong>Tech:</strong> React 19, Node.js, Express.js, MongoDB, OpenAI API,
